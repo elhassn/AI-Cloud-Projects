@@ -1,5 +1,10 @@
 # CASE STUDY: Build a Real-Time Dashboard using Apache Kafka, Spark, Node.js & HighCharts
 
+<p align="center">
+  <img width="600" height="600" alt="Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts" src="https://github.com/user-attachments/assets/d5357ce6-acfd-4e31-be9d-79f0022fc226" />
+</p>
+
+
 **Author:** Mohamed El Hassnaoui  
 **Tech Stack:** Apache Kafka → Apache Spark Streaming → Kafka (processed topic) → Node.js (Socket.io) → HighCharts (browser)  
 **Use Case:** Real-time visualization of *orders* data ingested from CSV files, processed in near real-time, and displayed in a live dashboard.
@@ -41,8 +46,6 @@ spark-project/
 │     ├─ index.js
 │     └─ index.html           # frontend with HighCharts
 ##-----
-
-<img width="600" height="600" alt="Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts" src="https://github.com/user-attachments/assets/d5357ce6-acfd-4e31-be9d-79f0022fc226" />
 
 ## Introduction
 
