@@ -1,5 +1,36 @@
 # Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts
 
+# CASE STUDY: Build a Real-Time Dashboard using Apache Kafka, Spark, Node.js & HighCharts
+
+**Author:** Mohamed El Hassnaoui  
+**Stack:** Apache Kafka → Apache Spark Streaming → Kafka (processed topic) → Node.js (Socket.io) → HighCharts (browser)  
+**Use case:** Real-time visualization of *orders* data ingested from CSV files, processed in near real-time, and displayed in a live dashboard.
+
+---
+
+## Overview
+
+This case study demonstrates a full pipeline to build a real-time analytics dashboard:
+
+1. **Ingest** orders CSV files into Kafka (`orders_data` topic).
+2. **Stream-process** messages with Spark Streaming to generate aggregated metrics every 10s and publish to Kafka (`orders_ten_sec_data`).
+3. **Serve** processed messages via a Node.js server using `kafka-node` + `socket.io`.
+4. **Visualize** metrics in a browser using HighCharts.
+
+This repo contains scripts, Spark code, Node.js server, and instructions to run the pipeline on an EMR cluster (sample details below).
+
+---
+
+## EMR Cluster details (example)
+
+- **EMR version:** `emr-4.9.4`  
+- **Notes:** Ensure Spark and Python support for `pyspark` and that Kafka clients can reach the Kafka brokers (on the EMR nodes or external VMs).
+
+---
+
+## Repo layout
+
+
 <img width="600" height="600" alt="Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts" src="https://github.com/user-attachments/assets/d5357ce6-acfd-4e31-be9d-79f0022fc226" />
 
 ## Introduction
