@@ -1,6 +1,6 @@
 # Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts
 
-<img width="1000" height="1000" alt="Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts" src="https://github.com/user-attachments/assets/d5357ce6-acfd-4e31-be9d-79f0022fc226" />
+<img width="600" height="600" alt="Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts" src="https://github.com/user-attachments/assets/d5357ce6-acfd-4e31-be9d-79f0022fc226" />
 
 ## Introduction
 
