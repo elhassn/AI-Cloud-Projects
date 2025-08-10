@@ -1,1 +1,22 @@
-<!DOCTYPE html><html><body><h1>Dashboard</h1></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-Time Orders Dashboard</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <h1>Real-Time Orders Dashboard</h1>
+    <ul id="messages"></ul>
+
+    <script>
+        var socket = io();
+        var messages = document.getElementById('messages');
+
+        socket.on('message', function(msg){
+            var li = document.createElement("li");
+            li.textContent = msg;
+            messages.appendChild(li);
+        });
+    </script>
+</body>
+</html>

@@ -1,1 +1,4 @@
-order_id,product,quantity\n1,Widget,10\n2,Gadget,5
+order_id,product,quantity
+1,Widget,10
+2,Gadget,5
+3,Thingamajig,7
