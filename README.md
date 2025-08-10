@@ -29,6 +29,16 @@ This repo contains scripts, Spark code, Node.js server, and instructions to run 
 ---
 
 ## Repo layout
+spark-project/
+├─ spark_dashboard/
+│ ├─ kafka/
+│ │ ├─ push_orders_data_in_topic.sh
+│ │ └─ data/ # sample CSV files (orders)
+│ ├─ spark/
+│ │ └─ spark_streaming_order_status.py
+│ └─ nodejs/
+│ ├─ index.js
+│ └─ index.html # frontend with HighCharts
 
 
 <img width="600" height="600" alt="Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts" src="https://github.com/user-attachments/assets/d5357ce6-acfd-4e31-be9d-79f0022fc226" />
