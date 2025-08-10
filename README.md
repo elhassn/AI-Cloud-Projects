@@ -1,5 +1,3 @@
-# Building a Real Time Dashboard using Apache Kafka, Spark, NodeJS and HighCharts
-
 # CASE STUDY: Build a Real-Time Dashboard using Apache Kafka, Spark, Node.js & HighCharts
 
 **Author:** Mohamed El Hassnaoui  
